@@ -1,0 +1,46 @@
+.main{
+    background-color: grey;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 200px;
+   }
+.screen{
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+    text-align :right;
+    position: relative;
+    top: 20px;
+}
+.keypad{
+    margin-top: 40px;
+    position: relative;
+    left: 32px;
+
+}
+button{
+    padding-right: 10px;
+    border-radius: 20px;
+}
+.round{
+    padding-right: 13px;
+}
+.row{
+    margin-bottom: 5px;
+}
+.hello{
+    color: gray;
+}
+@media(min-width:768px)
+{
+    .main{
+        background-color: grey;
+        margin-left: 450px;
+        margin-right: 500px;
+        margin-bottom: 200px;   
+    }
+    .keypad{
+        margin-left: 10px;
+    }
+}
